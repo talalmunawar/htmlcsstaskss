@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form task 2</title>
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <form>
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="first-name">First Name:</label>
+            <input
+              type="text"
+              id="first-name"
+              placeholder="Enter your First Name"
+              required
+            />
+            <br />
+            <label for="last-name">Last Name:</label>
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Enter your Last Name"
+              required
+            />
+            <br />
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" required />
+          </fieldset>
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter Your Email" required />
+            <br />
+            <label for="Phone">Phone Number:</label>
+            <input type="number" placeholder="Enter Your Number" required />
+          </fieldset>
+          <fieldset>
+            <legend>Login Details</legend>
+            <label for="user-name">Username:</label>
+            <input type="text" placeholder="Guest1223" required /> <br />
+            <label for="password">Password:</label>
+            <input type="password" required />
+          </fieldset>
+          <fieldset>
+            <legend>Preferences</legend>
+            <input type="radio" name="male" id="gender" />Male
+            <input type="radio" name="female" id="female" />Female <br />
+            <input type="checkbox" />Subscribe to Newsletter
+          </fieldset>
+          <fieldset>
+            <legend>Additional Information</legend>
+            <label for="comments">Comments:</label> <br />
+            <textarea
+              name="comments"
+              id=""
+              placeholder="Enter any comments here"
+            ></textarea>
+            <br />
+          </fieldset>
+          <label for="country">Country: </label>
+          <select name="country">
+            <option value="united-states">United states</option>
+            <option value="russia">Russia</option>
+          </select>
+          <br />
+          <button>Sumbit Form</button>
+          <button>Reset Form</button>
+        </form>
+      </form>
+    </section>
+  </body>
+</html>
