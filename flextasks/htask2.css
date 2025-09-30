@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.nav {
+  padding: 20px 0px;
+  background-color: #004081;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav li {
+  list-style: none;
+  padding: 0px 30px;
+}
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+.nav h1 {
+  padding-left: 30px;
+  color: white;
+}
+.hero {
+  width: 400px;
+  text-align: center;
+  padding: 30px 0px 20px;
+  color: white;
+  background-color: #646464;
+  border-radius: 10px;
+  margin: 70px auto;
+}
+.hero p {
+  padding: 20px;
+}
+.hero button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #ffcb02;
+  border: none;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.service h2 {
+  text-align: center;
+  margin: 100px 0px 50px;
+  color: #053e63;
+}
+.card {
+  width: 350px;
+  padding: 30px;
+  box-shadow: 2px 3px 5px #a69c9c;
+  text-align: center;
+  border-radius: 10px;
+}
+.card h3 {
+  padding: 20px 0px;
+}
+.card p {
+  color: #473f35;
+  padding-bottom: 20px;
+}
+.price {
+  color: #053e63;
+  padding-bottom: 0px;
+  font-weight: 700;
+}
+
+.cus-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.cus-card {
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 0px 2px gray;
+  border-radius: 10px;
+  background-color: #ffff;
+}
+.cus-card img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.cus-card p {
+  margin: 20px 0px;
+}
+
+#sarah {
+  margin: 0px;
+  font-weight: 600;
+}
+.review h2 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.review {
+  background-color: #e1f8fc;
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 25px 0px;
+  background-color: #333;
+}
+.foot p {
+  color: #fff;
+}
+.foot p a {
+  color: yellow;
+  text-decoration: none;
+}
