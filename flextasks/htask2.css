@@ -27,6 +27,9 @@ nav {
   padding-left: 30px;
   color: white;
 }
+.hamburger {
+  display: none;
+}
 .hero {
   width: 400px;
   text-align: center;
@@ -49,6 +52,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 70px;
+  flex-wrap: wrap;
 }
 .service h2 {
   text-align: center;
@@ -78,6 +82,7 @@ nav {
 .cus-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
 }
 .cus-card {
@@ -123,4 +128,19 @@ nav {
 .foot p a {
   color: yellow;
   text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex-direction: column;
+  }
+  .nav ul {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    color: white;
+    padding: 5px 20px;
+    font-size: 23px;
+  }
 }
