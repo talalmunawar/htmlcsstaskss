@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 238, 241);
+}
+.formm {
+    margin: auto;
+    width: 500px;
+    box-shadow: 0px 0px 5px #918585;
+    padding: 30px;
+    background: white;
+    border-top: 10px solid yellow;
+}
+h2.heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+section {
+  margin-top: 100px;
+}
+.input-grp {
+    padding-bottom: 20px;
+}
+.input-grp input {
+    padding: 10px 235px 8.5px 9px;
+}
+.input-grp i {
+    border: 1px solid grey;
+    padding: 10px 30px 10px 15px;
+    position: relative;
+    top: 1px;
+    right: -5px;
+}
+.name-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -12px;
+}
+.name-flex input {
+    padding: 10px 0px 8.5px 9px;
+}
+.name-flex i {
+    border: 1px solid grey;
+    padding: 10px 30px 10px 15px;
+    position: relative;
+    right: -19px;
+}
+
+.radio {
+    margin: 30px 0px;
+}
+#gender {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+#female {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+select {
+    width: 433px;
+    margin-left: 6px;
+    padding: 10px;
+}
+
+.check {
+    margin: 15px 6px;
+}
+.check input {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 15px 187px;
+    font-size: 20px;
+    border: none;
+    background-color: yellow;
+}
+.btn:hover{
+    background-color: green;
+}
