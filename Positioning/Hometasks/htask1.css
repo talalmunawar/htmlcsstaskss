@@ -102,3 +102,95 @@ body {
     background-color: white;
     border-radius: 20px;
 }
+
+
+@media (max-width: 1024px) {
+  .modal {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  .task {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+  }
+
+  .head {
+    padding: 10px 30px;
+  }
+
+  .head h2 {
+    font-size: 20px;
+  }
+
+  .card {
+    width: 260px;
+  }
+
+  .cbtn {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .head {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 15px 10px;
+  }
+
+  .task {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .task h3 {
+    font-size: 18px;
+  }
+
+  .task p {
+    font-size: 14px;
+  }
+
+  .card {
+    width: 85%;
+    margin: 40px auto;
+    padding: 20px 0;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  #notification {
+    right: 70px;
+    top: 8px;
+    font-size: 11px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .modal {
+    width: 90%;
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .modal h3 {
+    font-size: 18px;
+  }
+
+  .support-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
+}
