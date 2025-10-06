@@ -107,8 +107,11 @@
     color: white;
 }
 
-@media (max-width: 767) {
+@media (max-width: 767px) {
   .card-container {
-    width: 0px;
+    width: 400px;
+  }
+  .card {
+    width: 350px;
   }
 }
